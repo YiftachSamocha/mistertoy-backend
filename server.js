@@ -29,7 +29,7 @@ app.use(cors(corsOptions))
 app.get('/api/toy', (req, res) => {
     const filterBy = {
         name: req.query.name || '',
-        isStock: req.query.isStock || 'all',
+        inStock: req.query.inStock || 'all',
         labels: req.query.labels || [],
         sort: req.query.sort || 'name',
     }

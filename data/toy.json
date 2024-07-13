@@ -26,19 +26,6 @@
         "color": "#E6E6FA"
     },
     {
-        "_id": "V9sSt",
-        "name": "Bouncing Ball",
-        "price": 134,
-        "labels": [
-            "Battery Powered",
-            "Collectible",
-            "Musical"
-        ],
-        "createdAt": "2024-07-13T22:26:09.519Z",
-        "inStock": false,
-        "color": "#F8DE7E"
-    },
-    {
         "_id": "SaD1U",
         "name": "Toy Spaceship",
         "price": 187,
@@ -91,32 +78,6 @@
         "color": "#FFD1DC"
     },
     {
-        "_id": "7h4av",
-        "name": "Bouncing Ball",
-        "price": 58,
-        "labels": [
-            "Handcrafted",
-            "Soft",
-            "Doll"
-        ],
-        "createdAt": "2024-07-13T22:26:09.519Z",
-        "inStock": false,
-        "color": "#E6E6FA"
-    },
-    {
-        "_id": "eaMHS",
-        "name": "Building Blocks",
-        "price": 177,
-        "labels": [
-            "Sports",
-            "Puzzle",
-            "Remote Controlled"
-        ],
-        "createdAt": "2024-07-13T22:26:09.519Z",
-        "inStock": false,
-        "color": "#E6E6FA"
-    },
-    {
         "_id": "tBFca",
         "name": "Stuffed Rabbit",
         "price": 76,
@@ -124,19 +85,6 @@
             "Educational",
             "Creative",
             "Battery Powered"
-        ],
-        "createdAt": "2024-07-13T22:26:09.519Z",
-        "inStock": true,
-        "color": "#F8DE7E"
-    },
-    {
-        "_id": "UQ4Gv",
-        "name": "Race Car",
-        "price": 78,
-        "labels": [
-            "Collectible",
-            "Remote Controlled",
-            "Interactive"
         ],
         "createdAt": "2024-07-13T22:26:09.519Z",
         "inStock": true,
@@ -170,7 +118,7 @@
     },
     {
         "_id": "f8d4T",
-        "name": "Building Blocks",
+        "name": "Building",
         "price": 177,
         "labels": [
             "Wooden",
@@ -179,7 +127,7 @@
         ],
         "createdAt": "2024-07-13T22:26:09.519Z",
         "inStock": true,
-        "color": "#FFDAB9"
+        "color": "#ec760e"
     },
     {
         "_id": "UjL8U",
@@ -231,7 +179,9 @@
         ],
         "createdAt": "2024-07-13T22:26:09.519Z",
         "inStock": true,
-        "color": "#FFDAB9"
+        "color": "#FFDAB9",
+        "nextToyId": "hx58w",
+        "prevToyId": "ZmZMp"
     },
     {
         "_id": "ZmZMp",
@@ -310,5 +260,14 @@
         "inStock": false,
         "color": "#89CEEB",
         "_id": "Jwoo5"
+    },
+    {
+        "name": "sexsex",
+        "price": 50,
+        "labels": [],
+        "createdAt": "2024-07-13T23:00:53.909Z",
+        "inStock": true,
+        "color": "#ffffff",
+        "_id": "q0eIH"
     }
 ]
