@@ -33,8 +33,54 @@ app.get('/api/toy', (req, res) => {
         labels: req.query.labels || [],
         sort: req.query.sort || 'name',
     }
-    toyService.query()
+    toyService.query(filterBy)
         .then(toys => res.send(toys))
+        .catch((err) => {
+            loggerService.error('Cannot load toys', err)
+            res.status(400).send('Cannot load toys')
+        })
+
+})
+
+app.get('/api/toy/:id', (req, res) => {
+    const { id } = req.params
+    toyService.getById(id)
+        .then(foundToy => res.send(foundToy))
+        .catch((err) => {
+            loggerService.error('Cannot get toy', err)
+            res.status(400).send('Cannot get toy')
+        })
+
+})
+
+app.put('/api/toy', (req, res) => {
+    const { ...toy } = req.body
+    toyService.save(toy)
+        .then(savedToy => res.send(savedToy))
+        .catch((err) => {
+            loggerService.error('Cannot update toy', err)
+            res.status(400).send('Cannot update toy')
+        })
+})
+
+app.post('/api/toy', (req, res) => {
+    const { ...toy } = req.body
+    toyService.save(toy)
+        .then(savedToy => res.send(savedToy))
+        .catch((err) => {
+            loggerService.error('Cannot add toy', err)
+            res.status(400).send('Cannot add toy')
+        })
+})
+
+app.delete('/api/toy/:id', (req, res) => {
+    const { id } = req.params
+    toyService.remove(id)
+        .then(() => res.send('Removed successfully'))
+        .catch((err) => {
+            loggerService.error('Cannot remove toy', err)
+            res.status(400).send('Cannot remove toy')
+        })
 
 })
 

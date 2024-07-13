@@ -3,7 +3,7 @@ import { utilService } from "./util.service.js"
 import { loggerService } from './logger.service.js'
 
 export const toyService = { query, getById, remove, save }
-var toys = utilService.readJsonFile('./data/toy.json')
+var toys = utilService.readJsonFile('data/toy.json')
 _createData()
 
 
@@ -16,10 +16,9 @@ function query(filterBy = {}) {
         if (filterBy.inStock === 'in') filteredToys = filteredToys.filter(toy => toy.inStock)
         else if (filterBy.inStock === 'out') filteredToys = filteredToys.filter(toy => !toy.inStock)
     }
-    if (filterBy.labels) {
+    if (filterBy.labels && filterBy.labels.length !== 0) {
         filteredToys = filteredToys.filter(toy =>
             filterBy.labels.some(label => toy.labels.includes(label)))
-
     }
     if (filterBy.sort) {
         switch (filterBy.sort) {
@@ -50,14 +49,14 @@ function getById(toyId) {
 }
 
 function save(toyToSave) {
-    if (toy._id) {
+    if (toyToSave._id) {
         toys = toys.map(toy => {
             return toy._id === toyToSave._id ? toyToSave : toy
         })
     }
     else {
         toyToSave._id = utilService.makeId()
-        toys = toys.push(toyToSave)
+        toys.push(toyToSave)
     }
     return _saveToysToFile().then(() => toyToSave)
 }
@@ -140,8 +139,8 @@ function _getRandomItem(type) {
 
 function _saveToysToFile() {
     return new Promise((resolve, reject) => {
-        const data = JSON.stringify(cars, null, 4)
-        fs.writeFile('./data/toy.json', data, (err) => {
+        const data = JSON.stringify(toys, null, 4)
+        fs.writeFile('data/toy.json', data, (err) => {
             if (err) {
                 loggerService.error('Cannot write to toys file', err)
                 return reject(err)
