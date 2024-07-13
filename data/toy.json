@@ -1,0 +1,314 @@
+[
+    {
+        "_id": "mbbrTW",
+        "name": "Remote Helicopter",
+        "price": 178,
+        "labels": [
+            "Collectible",
+            "Handcrafted",
+            "Soft"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#FFB6C1"
+    },
+    {
+        "_id": "qxY2Md",
+        "name": "Toy Soldier",
+        "price": 83,
+        "labels": [
+            "Educational",
+            "Doll",
+            "Creative"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": true,
+        "color": "#FFB6C1"
+    },
+    {
+        "_id": "XBXTT7",
+        "name": "Water Gun",
+        "price": 157,
+        "labels": [
+            "Remote Controlled",
+            "Stuffed",
+            "Interactive"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": true,
+        "color": "#87CEEB"
+    },
+    {
+        "_id": "7hKgIO",
+        "name": "Tall Cowboy",
+        "price": 79,
+        "labels": [
+            "Creative",
+            "Stuffed",
+            "Baby"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": true,
+        "color": "#FFFFE0"
+    },
+    {
+        "_id": "lP1Iva",
+        "name": "Toy Train",
+        "price": 196,
+        "labels": [
+            "Wooden",
+            "Baby",
+            "Plastic"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#87CEEB"
+    },
+    {
+        "_id": "9YT521",
+        "name": "Toy Soldier",
+        "price": 192,
+        "labels": [
+            "Plastic",
+            "Doll",
+            "Handcrafted"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#FFD1DC"
+    },
+    {
+        "_id": "VDKG5W",
+        "name": "Toy Soldier",
+        "price": 198,
+        "labels": [
+            "Battery Powered",
+            "Baby",
+            "Sports"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#98FB98"
+    },
+    {
+        "_id": "6DV6l5",
+        "name": "Puzzle Box",
+        "price": 116,
+        "labels": [
+            "Wooden",
+            "Plastic",
+            "Sports"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#98FB98"
+    },
+    {
+        "_id": "DlbTU0",
+        "name": "Toy Soldier",
+        "price": 94,
+        "labels": [
+            "Sports",
+            "Soft",
+            "Handcrafted"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": true,
+        "color": "#FFFFE0"
+    },
+    {
+        "_id": "fKWVQF",
+        "name": "Remote Helicopter",
+        "price": 91,
+        "labels": [
+            "Plastic",
+            "Remote Controlled",
+            "Battery Powered"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": true,
+        "color": "#77DD77"
+    },
+    {
+        "_id": "usbYn1",
+        "name": "Tall Cowboy",
+        "price": 200,
+        "labels": [
+            "Wooden",
+            "Doll",
+            "Creative"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#FFB6C1"
+    },
+    {
+        "_id": "O4qJIi",
+        "name": "Puzzle Box",
+        "price": 180,
+        "labels": [
+            "Puzzle",
+            "Collectible",
+            "Soft"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#ADD8E6"
+    },
+    {
+        "_id": "gRh50C",
+        "name": "Puzzle Box",
+        "price": 114,
+        "labels": [
+            "Wooden",
+            "Puzzle",
+            "Musical"
+        ],
+        "createdAt": "2024-07-13T20:45:58.247Z",
+        "inStock": false,
+        "color": "#FFD1DC"
+    },
+    {
+        "_id": "sirOia",
+        "name": "Toy Dinosaur",
+        "price": 80,
+        "labels": [
+            "Remote Controlled",
+            "Outdoor",
+            "Wooden"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": false,
+        "color": "#E6E6FA"
+    },
+    {
+        "_id": "KaKVmG",
+        "name": "Puzzle Box",
+        "price": 59,
+        "labels": [
+            "Puzzle",
+            "Collectible",
+            "Baby"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": false,
+        "color": "#FFDAB9"
+    },
+    {
+        "_id": "Mll3Rs",
+        "name": "Robot",
+        "price": 171,
+        "labels": [
+            "Musical",
+            "Educational",
+            "Battery Powered"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": false,
+        "color": "#F8DE7E"
+    },
+    {
+        "_id": "KoTqFt",
+        "name": "Talking Doll",
+        "price": 164,
+        "labels": [
+            "Remote Controlled",
+            "Puzzle",
+            "Collectible"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": true,
+        "color": "#87CEEB"
+    },
+    {
+        "_id": "fxLAku",
+        "name": "Puzzle Box",
+        "price": 171,
+        "labels": [
+            "Wooden",
+            "Baby",
+            "Remote Controlled"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": true,
+        "color": "#FFB6C1"
+    },
+    {
+        "_id": "WVP3Nv",
+        "name": "Remote Helicopter",
+        "price": 188,
+        "labels": [
+            "Light-Up",
+            "Doll",
+            "Soft"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": false,
+        "color": "#77DD77"
+    },
+    {
+        "_id": "7EpUas",
+        "name": "Toy Boat",
+        "price": 157,
+        "labels": [
+            "Outdoor",
+            "Baby",
+            "Educational"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": false,
+        "color": "#F8DE7E"
+    },
+    {
+        "_id": "TURgwE",
+        "name": "Robot",
+        "price": 200,
+        "labels": [
+            "Baby",
+            "Collectible",
+            "Musical"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": true,
+        "color": "#E6E6FA"
+    },
+    {
+        "_id": "fkeDPm",
+        "name": "Stuffed Rabbit",
+        "price": 140,
+        "labels": [
+            "Doll",
+            "Creative",
+            "Plastic"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": false,
+        "color": "#87CEEB"
+    },
+    {
+        "_id": "D4X345",
+        "name": "Remote Helicopter",
+        "price": 165,
+        "labels": [
+            "Educational",
+            "Creative",
+            "Plastic"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": true,
+        "color": "#F8DE7E"
+    },
+    {
+        "_id": "XBJqj5",
+        "name": "Puzzle Box",
+        "price": 142,
+        "labels": [
+            "Light-Up",
+            "Puzzle",
+            "Remote Controlled"
+        ],
+        "createdAt": "2024-07-13T20:45:58.248Z",
+        "inStock": true,
+        "color": "#F8DE7E"
+    }
+]
