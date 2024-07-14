@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "username": "me",
+        "password": "me",
+        "fullname": "me",
+        "_id": "WoMyN",
+        "createdAt": "2024-07-14T12:02:48.064Z"
+    },
+    {
+        "username": "miki",
+        "password": "miki",
+        "fullname": "miki",
+        "_id": "4J5fp",
+        "createdAt": "2024-07-14T12:04:09.785Z"
+    }
+]

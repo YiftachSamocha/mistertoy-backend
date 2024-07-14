@@ -28,15 +28,17 @@
     {
         "_id": "d58u6",
         "name": "Action Figure",
-        "price": 53,
+        "price": "56",
         "labels": [
             "Light-Up",
             "Outdoor",
             "Battery Powered"
         ],
         "createdAt": "2024-07-14T11:57:55.500Z",
-        "inStock": true,
-        "color": "#ADD8E6"
+        "inStock": false,
+        "color": "#ebeef0",
+        "nextToyId": "Jnlbp",
+        "prevToyId": "eCVbT"
     },
     {
         "_id": "GSkJN",
@@ -63,19 +65,6 @@
         "createdAt": "2024-07-14T11:57:55.501Z",
         "inStock": false,
         "color": "#ADD8E6"
-    },
-    {
-        "_id": "dLUcE",
-        "name": "Robot",
-        "price": 165,
-        "labels": [
-            "Wooden",
-            "Soft",
-            "Sports"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
-        "color": "#87CEEB"
     },
     {
         "_id": "OvACx",
@@ -208,19 +197,6 @@
         "color": "#E6E6FA"
     },
     {
-        "_id": "JGwtX",
-        "name": "Action Figure",
-        "price": 55,
-        "labels": [
-            "Creative",
-            "Light-Up",
-            "Battery Powered"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
-        "color": "#FFFFE0"
-    },
-    {
         "_id": "5L6GE",
         "name": "Stuffed Rabbit",
         "price": 96,
@@ -230,8 +206,10 @@
             "Outdoor"
         ],
         "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#FFDAB9"
+        "inStock": true,
+        "color": "#0f0a05",
+        "nextToyId": "v78ku",
+        "prevToyId": "YrJOX"
     },
     {
         "_id": "1jfoe",
@@ -283,32 +261,6 @@
         ],
         "createdAt": "2024-07-14T11:57:55.501Z",
         "inStock": false,
-        "color": "#98FB98"
-    },
-    {
-        "_id": "qhBGp",
-        "name": "Remote Helicopter",
-        "price": 126,
-        "labels": [
-            "Soft",
-            "Sports",
-            "Battery Powered"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
-        "color": "#FFB6C1"
-    },
-    {
-        "_id": "CVVXY",
-        "name": "Action Figure",
-        "price": 93,
-        "labels": [
-            "Plastic",
-            "Stuffed",
-            "Educational"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
         "color": "#98FB98"
     }
 ]
