@@ -4,6 +4,7 @@ import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import { loggerService } from './services/logger.service.js';
 import { toyService } from './services/toy.service.js';
+import { userService } from './services/user.service.js';
 
 const app = express()
 const corsOptions = {
@@ -26,6 +27,8 @@ app.use(cookieParser())
 app.use(express.json())
 app.use(cors(corsOptions))
 
+
+// TOYS
 app.get('/api/toy', (req, res) => {
     const filterBy = {
         name: req.query.name || '',
@@ -82,6 +85,31 @@ app.delete('/api/toy/:id', (req, res) => {
             res.status(400).send('Cannot remove toy')
         })
 
+})
+
+//USER
+app.post('/api/auth/login', (req, res) => {
+    const { ...credentials } = req.body
+    userService.login(credentials)
+        .then(foundUser => res.send(foundUser))
+        .catch((err) => {
+            loggerService.error('Cannot login', err)
+            res.status(400).send('Cannot login')
+        })
+})
+
+app.post('/api/auth/signup', (req, res) => {
+    const { ...credentials } = req.body
+    userService.signup(credentials)
+        .then(savedUser => res.send(savedUser))
+        .catch((err) => {
+            loggerService.error('Cannot signup', err)
+            res.status(400).send('Cannot signup')
+        })
+})
+
+app.post('/api/auth/logout', (req, res) => {
+    res.send('Logged out!')
 })
 
 
