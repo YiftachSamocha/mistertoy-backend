@@ -93,19 +93,6 @@
         "color": "#87CEEB"
     },
     {
-        "_id": "MevPX",
-        "name": "Puzzle Box",
-        "price": 170,
-        "labels": [
-            "Doll",
-            "Battery Powered",
-            "Creative"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#FFD1DC"
-    },
-    {
         "_id": "hnTUL",
         "name": "Toy Piano",
         "price": 109,
@@ -117,19 +104,6 @@
         "createdAt": "2024-07-14T11:57:55.501Z",
         "inStock": false,
         "color": "#FFD1DC"
-    },
-    {
-        "_id": "YVUAT",
-        "name": "Stuffed Bear",
-        "price": 174,
-        "labels": [
-            "Handcrafted",
-            "Doll",
-            "Baby"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
-        "color": "#98FB98"
     },
     {
         "_id": "bjC24",
@@ -171,32 +145,6 @@
         "color": "#ADD8E6"
     },
     {
-        "_id": "zdeXf",
-        "name": "Stuffed Bear",
-        "price": 142,
-        "labels": [
-            "Stuffed",
-            "Interactive",
-            "Wooden"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#FFB6C1"
-    },
-    {
-        "_id": "Jnlbp",
-        "name": "Action Figure",
-        "price": 179,
-        "labels": [
-            "Doll",
-            "Interactive",
-            "Wooden"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
-        "color": "#E6E6FA"
-    },
-    {
         "_id": "5L6GE",
         "name": "Stuffed Rabbit",
         "price": 96,
@@ -210,19 +158,6 @@
         "color": "#0f0a05",
         "nextToyId": "v78ku",
         "prevToyId": "YrJOX"
-    },
-    {
-        "_id": "1jfoe",
-        "name": "Puzzle Box",
-        "price": 92,
-        "labels": [
-            "Puzzle",
-            "Battery Powered",
-            "Stuffed"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#FFFFE0"
     },
     {
         "_id": "JB7Mz",
