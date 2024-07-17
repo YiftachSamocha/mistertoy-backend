@@ -1,201 +1,290 @@
 [
     {
-        "_id": "v78ku",
-        "name": "Tall Cowboy",
-        "price": 72,
-        "labels": [
-            "Creative",
-            "Interactive",
-            "Stuffed"
-        ],
-        "createdAt": "2024-07-14T11:57:55.500Z",
-        "inStock": false,
-        "color": "#E6E6FA"
-    },
-    {
-        "_id": "CTxZJ",
-        "name": "Toy Spaceship",
-        "price": 90,
-        "labels": [
-            "Puzzle",
-            "Collectible",
-            "Wooden"
-        ],
-        "createdAt": "2024-07-14T11:57:55.500Z",
-        "inStock": false,
-        "color": "#F8DE7E"
-    },
-    {
-        "_id": "d58u6",
-        "name": "Action Figure",
-        "price": "56",
-        "labels": [
-            "Light-Up",
-            "Outdoor",
-            "Battery Powered"
-        ],
-        "createdAt": "2024-07-14T11:57:55.500Z",
-        "inStock": false,
-        "color": "#ebeef0",
-        "nextToyId": "Jnlbp",
-        "prevToyId": "eCVbT"
-    },
-    {
-        "_id": "GSkJN",
+        "_id": "CXqZv",
         "name": "Toy Boat",
-        "price": 56,
+        "price": 83,
         "labels": [
-            "Creative",
+            "Electronic",
             "Baby",
-            "Collectible"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
-        "color": "#87CEEB"
-    },
-    {
-        "_id": "MXGLq",
-        "name": "Toy Spaceship",
-        "price": 106,
-        "labels": [
-            "Ride-On",
-            "Educational",
-            "Wooden"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#ADD8E6"
-    },
-    {
-        "_id": "OvACx",
-        "name": "Stuffed Rabbit",
-        "price": 105,
-        "labels": [
-            "Creative",
-            "Musical",
-            "Wooden"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#FFDAB9"
-    },
-    {
-        "_id": "YrJOX",
-        "name": "Stuffed Rabbit",
-        "price": 59,
-        "labels": [
-            "Doll",
-            "Handcrafted",
-            "Creative"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": true,
-        "color": "#87CEEB"
-    },
-    {
-        "_id": "hnTUL",
-        "name": "Toy Piano",
-        "price": 109,
-        "labels": [
-            "Collectible",
-            "Sports",
-            "Ride-On"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#FFD1DC"
-    },
-    {
-        "_id": "bjC24",
-        "name": "Toy Drum",
-        "price": 157,
-        "labels": [
-            "Stuffed",
-            "Creative",
             "Plastic"
         ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#FFFFE0"
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#FFDAB9"
     },
     {
-        "_id": "Yucwj",
-        "name": "Toy Boat",
-        "price": 104,
+        "_id": "oVCC8",
+        "name": "Water Gun",
+        "price": 54,
         "labels": [
-            "Collectible",
-            "Plastic",
-            "Stuffed"
+            "Stuffed",
+            "Interactive",
+            "Educational"
         ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
+        "createdAt": "2024-07-16T17:44:24.060Z",
         "inStock": false,
         "color": "#FFDAB9"
     },
     {
-        "_id": "vXoNV",
-        "name": "Toy Piano",
-        "price": 170,
+        "_id": "sQil1",
+        "name": "Talking Doll",
+        "price": 120,
         "labels": [
-            "Baby",
-            "Sports",
+            "Battery Powered",
+            "Soft",
+            "Doll"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": false,
+        "color": "#FFB6C1"
+    },
+    {
+        "_id": "V9YsJ",
+        "name": "Action Figure",
+        "price": 128,
+        "labels": [
             "Battery Powered"
         ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#ADD8E6"
-    },
-    {
-        "_id": "5L6GE",
-        "name": "Stuffed Rabbit",
-        "price": 96,
-        "labels": [
-            "Soft",
-            "Educational",
-            "Outdoor"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
+        "createdAt": "2024-07-16T17:44:24.060Z",
         "inStock": true,
-        "color": "#0f0a05",
-        "nextToyId": "v78ku",
-        "prevToyId": "YrJOX"
+        "color": "#98FB98",
+        "nextToyId": "v7c99",
+        "prevToyId": "oVCC8"
     },
     {
-        "_id": "JB7Mz",
+        "_id": "J9gdc",
         "name": "Stuffed Bear",
-        "price": 159,
+        "price": 97,
+        "labels": [
+            "Doll",
+            "Interactive",
+            "Battery Powered"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#87CEEB"
+    },
+    {
+        "_id": "3kvUt",
+        "name": "Remote Helicopter",
+        "price": 177,
+        "labels": [
+            "Collectible",
+            "Plastic",
+            "Doll"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": false,
+        "color": "#87CEEB"
+    },
+    {
+        "_id": "6R7ei",
+        "name": "Stuffed Rabbit",
+        "price": 87,
         "labels": [
             "Plastic",
-            "Electronic",
-            "Light-Up"
+            "Interactive",
+            "Musical"
         ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
+        "createdAt": "2024-07-16T17:44:24.060Z",
         "inStock": false,
         "color": "#77DD77"
     },
     {
-        "_id": "eCVbT",
-        "name": "Toy Train",
-        "price": 165,
-        "labels": [
-            "Stuffed",
-            "Remote Controlled",
-            "Outdoor"
-        ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
-        "inStock": false,
-        "color": "#F8DE7E"
-    },
-    {
-        "_id": "L8nlc",
-        "name": "Toy Drum",
-        "price": 108,
+        "_id": "UUFtJ",
+        "name": "Toy Soldier",
+        "price": 103,
         "labels": [
             "Puzzle",
-            "Battery Powered",
-            "Doll"
+            "Electronic",
+            "Soft"
         ],
-        "createdAt": "2024-07-14T11:57:55.501Z",
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#FFDAB9"
+    },
+    {
+        "_id": "V04He",
+        "name": "Bouncing Ball",
+        "price": 191,
+        "labels": [
+            "Educational",
+            "Interactive",
+            "Sports"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
         "inStock": false,
+        "color": "#ADD8E6"
+    },
+    {
+        "_id": "06BRD",
+        "name": "Toy Spaceship",
+        "price": 145,
+        "labels": [
+            "Electronic",
+            "Light-Up",
+            "Educational"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": false,
+        "color": "#77DD77"
+    },
+    {
+        "_id": "v7c99",
+        "name": "Action Figure",
+        "price": 152,
+        "labels": [
+            "Interactive"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#FFFFE0",
+        "nextToyId": "pe8UM",
+        "prevToyId": "V9YsJ"
+    },
+    {
+        "_id": "ByTgM",
+        "name": "Puzzle Box",
+        "price": 52,
+        "labels": [
+            "Light-Up",
+            "Educational",
+            "Ride-On"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#FFB6C1"
+    },
+    {
+        "_id": "HjTEu",
+        "name": "Puzzle Box",
+        "price": 166,
+        "labels": [
+            "Handcrafted",
+            "Soft",
+            "Wooden"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#FFFFE0"
+    },
+    {
+        "_id": "p7Ml9",
+        "name": "Toy Piano",
+        "price": 137,
+        "labels": [
+            "Collectible",
+            "Electronic",
+            "Interactive"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
         "color": "#98FB98"
+    },
+    {
+        "_id": "xlw2d",
+        "name": "Talking Doll",
+        "price": 180,
+        "labels": [
+            "Educational",
+            "Outdoor",
+            "Plastic"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#ADD8E6"
+    },
+    {
+        "_id": "t96q0",
+        "name": "Robot",
+        "price": 189,
+        "labels": [
+            "Sports",
+            "Outdoor",
+            "Stuffed"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#FFD1DC"
+    },
+    {
+        "_id": "eQvkO",
+        "name": "Puzzle Box",
+        "price": 135,
+        "labels": [
+            "Soft",
+            "Battery Powered",
+            "Puzzle"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#cccc38",
+        "nextToyId": "3kvUt",
+        "prevToyId": "HjTEu"
+    },
+    {
+        "_id": "ASnMg",
+        "name": "Toy Piano",
+        "price": 51,
+        "labels": [
+            "Creative",
+            "Musical",
+            "Electronic"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#E6E6FA"
+    },
+    {
+        "_id": "6lzsm",
+        "name": "Building Blocks",
+        "price": 196,
+        "labels": [
+            "Educational",
+            "Outdoor",
+            "Creative"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#E6E6FA"
+    },
+    {
+        "_id": "UulLn",
+        "name": "Toy Boat",
+        "price": 100,
+        "labels": [
+            "Wooden",
+            "Plastic",
+            "Light-Up"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": true,
+        "color": "#FFDAB9"
+    },
+    {
+        "_id": "oF7Es",
+        "name": "Robot",
+        "price": 105,
+        "labels": [
+            "Collectible",
+            "Stuffed",
+            "Sports"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": false,
+        "color": "#FFD1DC"
+    },
+    {
+        "_id": "hi8KO",
+        "name": "Robot",
+        "price": 198,
+        "labels": [
+            "Soft",
+            "Baby",
+            "Handcrafted"
+        ],
+        "createdAt": "2024-07-16T17:44:24.060Z",
+        "inStock": false,
+        "color": "#ADD8E6"
     }
 ]
