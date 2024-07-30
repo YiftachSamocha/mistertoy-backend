@@ -48,7 +48,7 @@ function getById(toyId) {
     return Promise.resolve(foundToy)
 }
 
-function save(toyToSave) {
+async function save(toyToSave) {
     if (toyToSave._id) {
         toys = toys.map(toy => {
             return toy._id === toyToSave._id ? toyToSave : toy
@@ -58,7 +58,8 @@ function save(toyToSave) {
         toyToSave._id = utilService.makeId()
         toys.push(toyToSave)
     }
-    return _saveToysToFile().then(() => toyToSave)
+    await _saveToysToFile()
+    return toyToSave
 }
 
 function _createData(length = 24) {

@@ -11,14 +11,13 @@ function login(userToFind) {
     return Promise.resolve(userToSend)
 }
 
-function signup(userToAdd) {
+async function signup(userToAdd) {
     userToAdd._id = utilService.makeId()
     userToAdd.createdAt = new Date()
     users.push(userToAdd)
-    return _saveUsersToFile()
-        .then(() => {
-            return { _id: userToAdd._id, fullname: userToAdd.fullname }
-        })
+    await _saveUsersToFile()
+    return { _id: userToAdd._id, fullname: userToAdd.fullname }
+
 
 }
 
