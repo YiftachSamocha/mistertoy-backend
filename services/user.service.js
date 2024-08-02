@@ -3,11 +3,12 @@ import { loggerService } from "./logger.service.js"
 import { utilService } from "./util.service.js"
 
 export const userService = { login, signup }
-const users = utilService.readJsonFile('data/user.json')
+let users = utilService.readJsonFile('data/user.json')
+_createData()
 
 function login(userToFind) {
     const foundUser = users.find(user => user.password === userToFind.password && user.username === userToFind.username)
-    const userToSend = { _id: foundUser._id, fullname: foundUser.fullname }
+    const userToSend = { _id: foundUser._id, fullname: foundUser.fullname, isAdmin: foundUser.isAdmin }
     return Promise.resolve(userToSend)
 }
 
@@ -18,6 +19,25 @@ async function signup(userToAdd) {
     await _saveUsersToFile()
     return { _id: userToAdd._id, fullname: userToAdd.fullname }
 
+
+}
+
+async function _createData(length = 6) {
+    if (!users || users.length === 0) {
+        let newUsers = []
+        for (var i = 0; i < length; i++) {
+            const user = {
+                _id: utilService.makeId(),
+                fullname: _getRandomAnimal(),
+                password: _getRandomAnimal(),
+                username: _getRandomAnimal(),
+            }
+            newUsers.push(user)
+        }
+        newUsers[0].isAdmin = true
+        users = newUsers
+        await _saveUsersToFile()
+    }
 
 }
 
@@ -32,4 +52,11 @@ function _saveUsersToFile() {
             resolve()
         })
     })
+}
+
+
+function _getRandomAnimal() {
+    const animalNames = ["Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Kangaroo", "Panda", "Koala", "Penguin", "Dolphin", "Shark", "Eagle", "Wolf", "Bear"];
+    const randomIndex = Math.floor(Math.random() * animalNames.length)
+    return animalNames[randomIndex]
 }

@@ -1,65 +1,39 @@
 [
     {
-        "username": "me",
-        "password": "me",
-        "fullname": "me",
-        "_id": "WoMyN",
-        "createdAt": "2024-07-14T12:02:48.064Z"
+        "_id": "oU5cT",
+        "fullname": "Koala",
+        "password": "Zebra",
+        "username": "Shark",
+        "isAdmin": true
     },
     {
-        "username": "miki",
-        "password": "miki",
-        "fullname": "miki",
-        "_id": "4J5fp",
-        "createdAt": "2024-07-14T12:04:09.785Z"
+        "_id": "GArQT",
+        "fullname": "Eagle",
+        "password": "Shark",
+        "username": "Lion"
     },
     {
-        "username": "cp",
-        "password": "",
-        "fullname": "",
-        "_id": "HNc3s",
-        "createdAt": "2024-07-17T11:16:13.528Z"
+        "_id": "xV4cX",
+        "fullname": "Lion",
+        "password": "Elephant",
+        "username": "Dolphin"
     },
     {
-        "username": "ddddd",
-        "password": "kkkkk",
-        "fullname": "ccc",
-        "_id": "O7XrK",
-        "createdAt": "2024-07-17T11:45:57.405Z"
+        "_id": "w54iS",
+        "fullname": "Bear",
+        "password": "Dolphin",
+        "username": "Wolf"
     },
     {
-        "username": "ckckckck",
-        "password": "xkxkxkxkxk",
-        "fullname": "vkvkvk",
-        "_id": "66AqL",
-        "createdAt": "2024-07-17T11:47:12.968Z"
+        "_id": "wgppY",
+        "fullname": "Bear",
+        "password": "Kangaroo",
+        "username": "Kangaroo"
     },
     {
-        "username": "ckcckckc",
-        "password": "ckckckckcc",
-        "fullname": "ckckck",
-        "_id": "yKvbK",
-        "createdAt": "2024-07-17T11:50:12.471Z"
-    },
-    {
-        "username": "mikimiki",
-        "password": "popopo",
-        "fullname": "lllllll",
-        "_id": "L3tMX",
-        "createdAt": "2024-07-30T12:26:13.427Z"
-    },
-    {
-        "username": "mkkk",
-        "password": "mmm",
-        "fullname": "mkmk",
-        "_id": "ECDuZ",
-        "createdAt": "2024-07-30T12:33:57.858Z"
-    },
-    {
-        "username": "klk",
-        "password": "klk",
-        "fullname": "klk",
-        "_id": "V02Li",
-        "createdAt": "2024-07-30T13:21:40.006Z"
+        "_id": "GzpmO",
+        "fullname": "Wolf",
+        "password": "Tiger",
+        "username": "Wolf"
     }
 ]
