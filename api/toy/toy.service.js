@@ -1,10 +1,8 @@
 import { ObjectId } from "mongodb"
 import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
-import { utilService } from "../../services/util.service.js"
 
 export const toyService = { query, getById, remove, add, update }
-// var toys = utilService.readJsonFile('data/toy.json')
 _createData()
 
 
