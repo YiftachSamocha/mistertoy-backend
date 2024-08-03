@@ -5,6 +5,8 @@ export async function login(req, res) {
     try {
         const { ...credentials } = req.body
         const foundUser = await authService.login(credentials)
+        const loginToken = authService.getLoginToken(foundUser)
+        res.cookie('loginToken', loginToken)
         res.json(foundUser)
     }
     catch (err) {
@@ -17,6 +19,8 @@ export async function signup(req, res) {
     try {
         const { ...credentials } = req.body
         const savedUser = await authService.signup(credentials)
+        const loginToken = authService.getLoginToken(savedUser)
+        res.cookie('loginToken', loginToken)
         res.json(savedUser)
     }
 
@@ -27,5 +31,6 @@ export async function signup(req, res) {
 }
 
 export function logout(req, res) {
+    res.clearCookie('loginToken')
     res.json('Logged out!')
 }

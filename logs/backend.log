@@ -164,3 +164,15 @@
 3.8.2024, 3:57:50 - INFO - Server listening on port http://127.0.0.1:3030/
 3.8.2024, 4:02:48 - INFO - Server listening on port http://127.0.0.1:3030/
 3.8.2024, 4:05:12 - INFO - Server listening on port http://127.0.0.1:3030/
+3.8.2024, 4:26:16 - INFO - Server listening on port http://127.0.0.1:3030/
+3.8.2024, 4:37:41 - INFO - Server listening on port http://127.0.0.1:3030/
+3.8.2024, 4:38:19 - ERROR - Cannot log in | ReferenceError: res is not defined
+3.8.2024, 4:38:19 - ERROR - Cannot login | ReferenceError: res is not defined
+3.8.2024, 4:39:50 - INFO - Server listening on port http://127.0.0.1:3030/
+3.8.2024, 4:39:59 - ERROR - Cannot log in | ReferenceError: res is not defined
+3.8.2024, 4:39:59 - ERROR - Cannot login | ReferenceError: res is not defined
+3.8.2024, 4:40:10 - INFO - Server listening on port http://127.0.0.1:3030/
+3.8.2024, 4:40:20 - ERROR - Cannot log in | ReferenceError: res is not defined
+3.8.2024, 4:40:20 - ERROR - Cannot login | ReferenceError: res is not defined
+3.8.2024, 4:42:33 - INFO - Server listening on port http://127.0.0.1:3030/
+3.8.2024, 4:49:21 - INFO - Server listening on port http://127.0.0.1:3030/

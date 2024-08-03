@@ -1,15 +1,20 @@
+import Cryptr from 'cryptr'
+import bcrypt from 'bcrypt'
+
 import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
 
-export const authService = { login, signup }
+export const authService = { login, signup, getLoginToken, validateToken }
 _createData()
+
+const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
 async function login(userToFind) {
     try {
         const { username, password } = userToFind
         const collection = await dbService.getCollection('user')
         const foundUser = await collection.findOne({ $and: [{ username }, { password }] })
-        return minimalizeUser(foundUser)
+        return _minimalizeUser(foundUser)
     }
     catch (err) {
         loggerService.error('Cannot log in', err)
@@ -22,7 +27,7 @@ async function signup(userToAdd) {
         const collection = await dbService.getCollection('user')
         userToAdd.createdAt = new Date()
         await collection.insertOne(userToAdd)
-        return minimalizeUser(userToAdd)
+        return _minimalizeUser(userToAdd)
     } catch (err) {
         loggerService.error('Cannot sign up', err)
         throw err
@@ -30,7 +35,23 @@ async function signup(userToAdd) {
 
 }
 
-function minimalizeUser(user) {
+function getLoginToken(user) {
+    const userInfo = _minimalizeUser(user)
+    return cryptr.encrypt(JSON.stringify(userInfo))
+}
+
+function validateToken(loginToken) {
+    try {
+        const json = cryptr.decrypt(loginToken)
+        const loggedinUser = JSON.parse(json)
+        return loggedinUser
+    } catch (err) {
+        console.log('Invalid login token')
+    }
+    return null
+}
+
+function _minimalizeUser(user) {
     return {
         _id: user._id,
         fullname: user.fullname,
