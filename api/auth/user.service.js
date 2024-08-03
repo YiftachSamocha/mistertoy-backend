@@ -1,6 +1,6 @@
 import fs from 'fs'
-import { loggerService } from "./logger.service.js"
-import { utilService } from "./util.service.js"
+import { loggerService } from "../../services/logger.service.js"
+import { utilService } from "../../services/util.service.js"
 
 export const userService = { login, signup }
 let users = utilService.readJsonFile('data/user.json')

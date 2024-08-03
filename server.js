@@ -3,8 +3,8 @@ import express from 'express'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import { loggerService } from './services/logger.service.js';
-import { toyService } from './services/toy.service.js';
-import { userService } from './services/user.service.js';
+import { userService } from './api/auth/user.service.js';
+import { toyRoutes } from './api/toy/toy.routes.js';
 
 const app = express()
 const corsOptions = {
@@ -28,64 +28,8 @@ app.use(express.json())
 app.use(cors(corsOptions))
 
 
-// TOYS
-app.get('/api/toy', (req, res) => {
-    const filterBy = {
-        name: req.query.name || '',
-        inStock: req.query.inStock || 'all',
-        labels: req.query.labels || [],
-        sort: req.query.sort || 'name',
-    }
-    toyService.query(filterBy)
-        .then(toys => res.send(toys))
-        .catch((err) => {
-            loggerService.error('Cannot load toys', err)
-            res.status(400).send('Cannot load toys')
-        })
+app.use('/api/toy', toyRoutes)
 
-})
-
-app.get('/api/toy/:id', (req, res) => {
-    const { id } = req.params
-    toyService.getById(id)
-        .then(foundToy => res.send(foundToy))
-        .catch((err) => {
-            loggerService.error('Cannot get toy', err)
-            res.status(400).send('Cannot get toy')
-        })
-
-})
-
-app.put('/api/toy', (req, res) => {
-    const { ...toy } = req.body
-    toyService.save(toy)
-        .then(savedToy => res.send(savedToy))
-        .catch((err) => {
-            loggerService.error('Cannot update toy', err)
-            res.status(400).send('Cannot update toy')
-        })
-})
-
-app.post('/api/toy', (req, res) => {
-    const { ...toy } = req.body
-    toyService.save(toy)
-        .then(savedToy => res.send(savedToy))
-        .catch((err) => {
-            loggerService.error('Cannot add toy', err)
-            res.status(400).send('Cannot add toy')
-        })
-})
-
-app.delete('/api/toy/:id', (req, res) => {
-    const { id } = req.params
-    toyService.remove(id)
-        .then(() => res.send('Removed successfully'))
-        .catch((err) => {
-            loggerService.error('Cannot remove toy', err)
-            res.status(400).send('Cannot remove toy')
-        })
-
-})
 
 //USER
 app.post('/api/auth/login', (req, res) => {
