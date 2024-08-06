@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "server.js",
-    "start": "node server.js"
+    "start": "nodemon server.js",
+    "server:dev": "nodemon server.js",
+    "server:prod": "set NODE_ENV=production&node server.js"
   },
   "author": "",
   "type": "module",

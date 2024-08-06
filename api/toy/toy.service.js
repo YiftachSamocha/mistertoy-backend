@@ -3,10 +3,10 @@ import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
 
 export const toyService = { query, getById, remove, add, update }
-_createData()
 
 
 async function query(filterBy = {}) {
+    _createData()
     try {
         const criteria = {}
         if (filterBy.name) {

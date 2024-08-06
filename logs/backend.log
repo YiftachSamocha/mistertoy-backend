@@ -176,3 +176,15 @@
 3.8.2024, 4:40:20 - ERROR - Cannot login | ReferenceError: res is not defined
 3.8.2024, 4:42:33 - INFO - Server listening on port http://127.0.0.1:3030/
 3.8.2024, 4:49:21 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 13:54:00 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 14:00:53 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 14:03:28 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 14:07:45 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 14:10:24 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 14:16:13 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 14:19:58 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 15:21:29 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 15:22:07 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 15:30:36 - INFO - Server listening on port http://127.0.0.1:3030/
+6.8.2024, 15:34:02 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+6.8.2024, 15:34:02 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')

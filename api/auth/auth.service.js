@@ -10,6 +10,7 @@ _createData()
 const cryptr = new Cryptr(process.env.SECRET1 || 'Secret-Puk-1234')
 
 async function login(userToFind) {
+    _createData()
     try {
         const { username, password } = userToFind
         const collection = await dbService.getCollection('user')
