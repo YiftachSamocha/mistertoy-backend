@@ -188,3 +188,13 @@
 6.8.2024, 15:30:36 - INFO - Server listening on port http://127.0.0.1:3030/
 6.8.2024, 15:34:02 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
 6.8.2024, 15:34:02 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+7.8.2024, 15:38:44 - INFO - Server listening on port http://127.0.0.1:3030/
+7.8.2024, 16:15:24 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+7.8.2024, 16:15:24 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+7.8.2024, 16:15:33 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+7.8.2024, 16:15:33 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+7.8.2024, 16:16:02 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+7.8.2024, 16:16:02 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+7.8.2024, 18:33:29 - INFO - Server listening on port http://127.0.0.1:3030/
+7.8.2024, 18:35:30 - INFO - Server listening on port http://127.0.0.1:3030/
+7.8.2024, 19:07:31 - INFO - Server listening on port http://127.0.0.1:3030/

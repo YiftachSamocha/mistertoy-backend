@@ -1,62 +1,103 @@
-import fs from 'fs'
+import { ObjectId } from "mongodb"
+import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
-import { utilService } from "../../services/util.service.js"
 
-export const userService = { login, signup }
-let users = utilService.readJsonFile('data/user.json')
+export const userService = { query, getById, remove, add, update }
+
 _createData()
-
-function login(userToFind) {
-    const foundUser = users.find(user => user.password === userToFind.password && user.username === userToFind.username)
-    const userToSend = { _id: foundUser._id, fullname: foundUser.fullname, isAdmin: foundUser.isAdmin }
-    return Promise.resolve(userToSend)
+async function query(filterBy = {}) {
+    try {
+        const criteria = {}
+        const collection = await dbService.getCollection('user')
+        const users = await collection.find().toArray()
+        return users
+    } catch (err) {
+        loggerService.error('Cannot find users', err)
+        throw err
+    }
 }
 
-async function signup(userToAdd) {
-    userToAdd._id = utilService.makeId()
-    userToAdd.createdAt = new Date()
-    users.push(userToAdd)
-    await _saveUsersToFile()
-    return { _id: userToAdd._id, fullname: userToAdd.fullname }
 
-
+async function remove(userId) {
+    try {
+        const collection = await dbService.getCollection('user')
+        await collection.deleteOne({ _id: ObjectId.createFromHexString(userId) })
+    }
+    catch (err) {
+        loggerService.error('Cannot remove user', err)
+        throw err
+    }
 }
 
-async function _createData(length = 6) {
-    if (!users || users.length === 0) {
-        let newUsers = []
+async function getById(userId) {
+    try {
+        const collection = await dbService.getCollection('user')
+        const foundUser = await collection.findOne({ _id: ObjectId.createFromHexString(userId) })
+        foundUser.createdAt = foundUser._id.getTimestamp()
+        return foundUser
+    }
+    catch (err) {
+        loggerService.error('Cannot find user', err)
+        throw err
+    }
+}
+
+async function add(userToAdd) {
+    try {
+        const collection = await dbService.getCollection('user')
+        await collection.insertOne(userToAdd)
+        return userToAdd
+    }
+    catch (err) {
+        loggerService.error('Cannot add user', err)
+        throw err
+    }
+}
+
+async function update(userToUpdate) {
+    try {
+        const collection = await dbService.getCollection('user')
+        const userId = userToUpdate._id
+        delete userToUpdate._id
+        await collection.updateOne({ _id: ObjectId.createFromHexString(userId.toString()) }, { $set: { ...userToUpdate } })
+        userToUpdate._id = userId
+        return userToUpdate
+
+    } catch (err) {
+        loggerService.error('Cannot update user', err)
+        throw err
+    }
+}
+
+
+async function _createData(length = 5) {
+    const collection = await dbService.getCollection('user')
+    const documentsCount = await collection.countDocuments()
+    if (documentsCount === 0) {
+        const user = {
+            fullname: _getRandomAnimal(),
+            password: _getRandomAnimal(),
+            username: _getRandomAnimal(),
+            reviews: [],
+            isAdmin: true,
+        }
+        await collection.insertOne(user)
         for (var i = 0; i < length; i++) {
             const user = {
-                _id: utilService.makeId(),
                 fullname: _getRandomAnimal(),
                 password: _getRandomAnimal(),
                 username: _getRandomAnimal(),
+                reviews: [],
             }
-            newUsers.push(user)
+            await collection.insertOne(user)
         }
-        newUsers[0].isAdmin = true
-        users = newUsers
-        await _saveUsersToFile()
     }
-
 }
-
-function _saveUsersToFile() {
-    return new Promise((resolve, reject) => {
-        const data = JSON.stringify(users, null, 4)
-        fs.writeFile('data/user.json', data, (err) => {
-            if (err) {
-                loggerService.error('Cannot write to users file', err)
-                return reject(err)
-            }
-            resolve()
-        })
-    })
-}
-
 
 function _getRandomAnimal() {
     const animalNames = ["Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Kangaroo", "Panda", "Koala", "Penguin", "Dolphin", "Shark", "Eagle", "Wolf", "Bear"];
     const randomIndex = Math.floor(Math.random() * animalNames.length)
     return animalNames[randomIndex]
 }
+
+

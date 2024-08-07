@@ -105,6 +105,7 @@ async function _createData(length = 24) {
                 inStock: _getRandomItem('inStock'),
                 color: _getRandomItem('color'),
                 msgs: [],
+                reviews: [],
             }
             await collection.insertOne(toy)
         }
