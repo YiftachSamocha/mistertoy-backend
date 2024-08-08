@@ -1,12 +1,14 @@
 import { ObjectId } from "mongodb"
 import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
+import { userService } from "../user/user.service.js"
 
 export const toyService = { query, getById, remove, add, update }
 
 
 async function query(filterBy = {}) {
     _createData()
+    userService.createData()
     try {
         const criteria = {}
         if (filterBy.name) {
@@ -103,6 +105,7 @@ async function _createData(length = 24) {
                 labels: _getRandomItem('labels'),
                 createdAt: new Date(),
                 inStock: _getRandomItem('inStock'),
+                img: '',
                 color: _getRandomItem('color'),
                 msgs: [],
                 reviews: [],

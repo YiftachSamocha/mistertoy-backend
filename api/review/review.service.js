@@ -115,8 +115,8 @@ async function update(reviewToUpdate) {
 
 function _buildCriteria(filterBy) {
     const criteria = {}
-    if (filterBy.name) {
-        criteria.name = { $regex: filterBy.name, $options: 'i' }
+    if (filterBy.txt) {
+        criteria.txt = { $regex: filterBy.txt, $options: 'i' }
     }
     if (filterBy.toy) {
         criteria.toyId = ObjectId.createFromHexString(filterBy.toy)

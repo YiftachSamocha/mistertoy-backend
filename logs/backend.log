@@ -233,3 +233,20 @@
 8.8.2024, 14:39:59 - INFO - Server listening on port http://127.0.0.1:3030/
 8.8.2024, 14:42:15 - INFO - Server listening on port http://127.0.0.1:3030/
 8.8.2024, 14:48:01 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:56:00 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+8.8.2024, 14:56:00 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+8.8.2024, 14:56:01 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+8.8.2024, 14:56:01 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+8.8.2024, 15:16:47 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 16:50:52 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 17:01:44 - ERROR - Cannot get user | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 17:01:44 - ERROR - Cannot find user | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 17:08:45 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 17:08:45 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 17:11:20 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 17:15:41 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 17:25:16 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 17:41:34 - ERROR - Cannot find user | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 17:41:34 - ERROR - Cannot get user | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 18:58:31 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 19:00:17 - INFO - Server listening on port http://127.0.0.1:3030/

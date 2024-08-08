@@ -4,7 +4,7 @@ import { reviewService } from "./review.service.js";
 export async function getReviews(req, res) {
     try {
         const filterBy = {
-            name: req.query.name || '',
+            txt: req.query.txt || '',
             toy: req.query.toy || '',
             user: req.query.user || '',
         }

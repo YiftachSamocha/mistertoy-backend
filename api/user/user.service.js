@@ -2,12 +2,10 @@ import { ObjectId } from "mongodb"
 import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
 
-export const userService = { query, getById, remove, add, update }
+export const userService = { query, getById, remove, add, update, createData }
 
-_createData()
-async function query(filterBy = {}) {
+async function query() {
     try {
-        const criteria = {}
         const collection = await dbService.getCollection('user')
         const users = await collection.find().toArray()
         return users
@@ -70,7 +68,7 @@ async function update(userToUpdate) {
 }
 
 
-async function _createData(length = 5) {
+async function createData(length = 5) {
     const collection = await dbService.getCollection('user')
     const documentsCount = await collection.countDocuments()
     if (documentsCount === 0) {
@@ -79,6 +77,7 @@ async function _createData(length = 5) {
             password: _getRandomAnimal(),
             username: _getRandomAnimal(),
             reviews: [],
+            createdAt: new Date(),
             isAdmin: true,
         }
         await collection.insertOne(user)
@@ -88,6 +87,7 @@ async function _createData(length = 5) {
                 password: _getRandomAnimal(),
                 username: _getRandomAnimal(),
                 reviews: [],
+                createdAt: new Date(),
             }
             await collection.insertOne(user)
         }
