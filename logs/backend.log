@@ -198,3 +198,29 @@
 7.8.2024, 18:33:29 - INFO - Server listening on port http://127.0.0.1:3030/
 7.8.2024, 18:35:30 - INFO - Server listening on port http://127.0.0.1:3030/
 7.8.2024, 19:07:31 - INFO - Server listening on port http://127.0.0.1:3030/
+7.8.2024, 19:37:32 - INFO - Server listening on port http://127.0.0.1:3030/
+7.8.2024, 20:20:49 - INFO - Server listening on port http://127.0.0.1:3030/
+7.8.2024, 20:39:02 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 2:13:45 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+8.8.2024, 2:13:44 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+8.8.2024, 2:14:32 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+8.8.2024, 2:14:32 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+8.8.2024, 2:15:11 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+8.8.2024, 2:15:11 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+8.8.2024, 2:27:00 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 2:29:13 - ERROR - Cannot update user | BSONError: hex string must be 24 characters
+8.8.2024, 2:29:13 - ERROR - Cannot update user | BSONError: hex string must be 24 characters
+8.8.2024, 2:30:35 - ERROR - Cannot update user | BSONError: hex string must be 24 characters
+8.8.2024, 2:30:35 - ERROR - Cannot update user | BSONError: hex string must be 24 characters
+8.8.2024, 2:39:46 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 2:57:19 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 2:58:06 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 3:01:28 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 12:03:12 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 12:03:18 - ERROR - Cannot load reviews | TypeError: Assignment to constant variable.
+8.8.2024, 12:03:18 - ERROR - Cannot find reviews | TypeError: Assignment to constant variable.
+8.8.2024, 12:06:21 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 12:06:27 - ERROR - Cannot find reviews | TypeError: collection.find(...).aggregate is not a function
+8.8.2024, 12:06:27 - ERROR - Cannot load reviews | TypeError: collection.find(...).aggregate is not a function
+8.8.2024, 12:10:15 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 12:11:37 - INFO - Server listening on port http://127.0.0.1:3030/

@@ -24,7 +24,6 @@ async function login(userToFind) {
 
 async function signup(userToAdd) {
     try {
-        const collection = await dbService.getCollection('user')
         userToAdd.createdAt = new Date()
         await userService.add(userToAdd)
         return _minimalizeUser(userToAdd)
@@ -32,7 +31,6 @@ async function signup(userToAdd) {
         loggerService.error('Cannot sign up', err)
         throw err
     }
-
 }
 
 function getLoginToken(user) {
@@ -56,5 +54,6 @@ function _minimalizeUser(user) {
         _id: user._id,
         fullname: user.fullname,
         isAdmin: user.isAdmin,
+        reviews: user.reviews,
     }
 }

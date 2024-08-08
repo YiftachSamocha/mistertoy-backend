@@ -4,6 +4,6 @@ import { addUser, getUserById, getUsers, removeUser, updateUser } from './user.c
 export const userRoutes = express.Router()
 userRoutes.get('/', getUsers)
 userRoutes.get('/:id', getUserById)
-userRoutes.post('/', requireAuth, addUser)
-userRoutes.put('/',requireAuth , updateUser)
+userRoutes.post('/', addUser)
+userRoutes.put('/', updateUser)
 userRoutes.delete('/:id',requireAuth, removeUser)

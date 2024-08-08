@@ -8,30 +8,55 @@ export const reviewService = { query, getById, remove, add, update }
 async function query(filterBy = {}) {
     try {
         const criteria = {}
-        // if (filterBy.name) {
-        //     criteria.name = { $regex: filterBy.name, $options: 'i' }
-        // }
-        // if (filterBy.inStock) {
-        //     if (filterBy.inStock === 'in') criteria.inStock = true
-        //     else if (filterBy.inStock === 'out') criteria.inStock = false
-        // }
-        // let sortType = 'name'
-        // if (filterBy.sort) {
-        //     switch (filterBy.sort) {
-        //         case 'name': sortType = 'name'
-        //             break
-        //         case 'price': sortType = 'price'
-        //             break
-        //         case 'date': sortType = 'createdAt'
-        //             break
-        //     }
-        // }
-        // if (filterBy.labels && filterBy.labels.length !== 0) {
-        //     criteria.labels = { $in: filterBy.labels }
-        // }
-
         const collection = await dbService.getCollection('review')
-        const reviews = await collection.find().toArray()
+
+        if (filterBy.name) {
+            criteria.txt = { $regex: filterBy.name, $options: 'i' }
+        }
+        if (filterBy.toy) {
+            criteria.toyId = filterBy.toy
+        }
+        if (filterBy.user) {
+            criteria.userId = filterBy.user
+        }
+
+        var reviews = await collection.aggregate([
+            { $match: criteria },
+            {
+                $lookup: {
+                    from: 'user',
+                    localField: 'userId',
+                    foreignField: '_id',
+                    as: 'byUser',
+                },
+            },
+            { $unwind: '$byUser' },
+            {
+                $lookup: {
+                    from: 'toy',
+                    localField: 'toyId',
+                    foreignField: '_id',
+                    as: 'aboutToy',
+                },
+            },
+            { $unwind: '$aboutToy' },
+        ]).toArray()
+
+        reviews = reviews.map(review => {
+            review.byUser = {
+                _id: review.byUser._id,
+                fullname: review.byUser.fullname
+            }
+            review.aboutToy = {
+                _id: review.aboutToy._id,
+                name: review.aboutToy.name
+            }
+            review.createdAt = review._id.getTimestamp()
+            delete review.userId
+            delete review.toyId
+            return review
+        })
+
         return reviews
 
     } catch (err) {
@@ -39,6 +64,7 @@ async function query(filterBy = {}) {
         throw err
     }
 }
+
 
 
 async function remove(reviewId) {
@@ -67,7 +93,7 @@ async function getById(reviewId) {
 
 async function add(review) {
     try {
-        const reviewToAdd= {
+        const reviewToAdd = {
             txt: review.txt,
             toyId: ObjectId.createFromHexString(review.toyId),
             userId: ObjectId.createFromHexString(review.userId)
