@@ -7,18 +7,8 @@ export const reviewService = { query, getById, remove, add, update }
 
 async function query(filterBy = {}) {
     try {
-        const criteria = {}
+        const criteria = _buildCriteria(filterBy)
         const collection = await dbService.getCollection('review')
-
-        if (filterBy.name) {
-            criteria.txt = { $regex: filterBy.name, $options: 'i' }
-        }
-        if (filterBy.toy) {
-            criteria.toyId = filterBy.toy
-        }
-        if (filterBy.user) {
-            criteria.userId = filterBy.user
-        }
 
         var reviews = await collection.aggregate([
             { $match: criteria },
@@ -121,6 +111,20 @@ async function update(reviewToUpdate) {
         loggerService.error('Cannot update review', err)
         throw err
     }
+}
+
+function _buildCriteria(filterBy) {
+    const criteria = {}
+    if (filterBy.name) {
+        criteria.name = { $regex: filterBy.name, $options: 'i' }
+    }
+    if (filterBy.toy) {
+        criteria.toyId = ObjectId.createFromHexString(filterBy.toy)
+    }
+    if (filterBy.user) {
+        criteria.userId = ObjectId.createFromHexString(filterBy.user)
+    }
+    return criteria
 }
 
 

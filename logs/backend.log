@@ -224,3 +224,12 @@
 8.8.2024, 12:06:27 - ERROR - Cannot load reviews | TypeError: collection.find(...).aggregate is not a function
 8.8.2024, 12:10:15 - INFO - Server listening on port http://127.0.0.1:3030/
 8.8.2024, 12:11:37 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:25:08 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:28:53 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:34:46 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:36:10 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:36:12 - ERROR - Cannot load reviews | ReferenceError: filterBy is not defined
+8.8.2024, 14:39:10 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:39:59 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:42:15 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 14:48:01 - INFO - Server listening on port http://127.0.0.1:3030/

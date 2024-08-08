@@ -3,20 +3,19 @@ import { reviewService } from "./review.service.js";
 
 export async function getReviews(req, res) {
     try {
-        // const filterBy = {
-        //     name: req.query.name || '',
-        //     inStock: req.query.inStock || 'all',
-        //     labels: req.query.labels || [],
-        //     sort: req.query.sort || 'name',
-        // }
-        const reviews = await reviewService.query()
+        const filterBy = {
+            name: req.query.name || '',
+            toy: req.query.toy || '',
+            user: req.query.user || '',
+        }
+
+        const reviews = await reviewService.query(filterBy)
         res.json(reviews)
     }
     catch (err) {
         loggerService.error('Cannot load reviews', err)
         res.status(400).send('Cannot load reviews')
     }
-
 }
 
 
