@@ -250,3 +250,74 @@
 8.8.2024, 17:41:34 - ERROR - Cannot get user | TypeError: Cannot read properties of null (reading '_id')
 8.8.2024, 18:58:31 - INFO - Server listening on port http://127.0.0.1:3030/
 8.8.2024, 19:00:17 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 19:46:31 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 19:47:33 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 19:47:33 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 19:47:39 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 19:47:39 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+8.8.2024, 23:35:18 - INFO - Server listening on port http://127.0.0.1:3030/
+8.8.2024, 23:57:24 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+8.8.2024, 23:57:25 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 0:08:31 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 0:13:16 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 0:13:19 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+9.8.2024, 0:13:19 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+9.8.2024, 0:16:36 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+9.8.2024, 0:16:36 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+9.8.2024, 0:16:38 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+9.8.2024, 0:16:38 - ERROR - Cannot add review | BSONError: hex string must be 24 characters
+9.8.2024, 0:17:00 - ERROR - Cannot update review | TypeError: Cannot read properties of undefined (reading 'toString')
+9.8.2024, 0:17:00 - ERROR - Cannot update review | TypeError: Cannot read properties of undefined (reading 'toString')
+9.8.2024, 0:18:01 - ERROR - Cannot update review | BSONError: hex string must be 24 characters
+9.8.2024, 0:18:01 - ERROR - Cannot update review | BSONError: hex string must be 24 characters
+9.8.2024, 0:18:35 - ERROR - Cannot update review | Error: Review not found
+9.8.2024, 0:18:35 - ERROR - Cannot update review | Error: Review not found
+9.8.2024, 0:18:51 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:18:51 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:20:31 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 0:20:40 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:20:40 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:22:43 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:22:43 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:22:43 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:22:43 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:22:51 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:22:51 - ERROR - Cannot add review | Error: Review not found
+9.8.2024, 0:25:43 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 0:25:53 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:25:53 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:26:59 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:26:59 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:29:12 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:29:12 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:31:09 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 0:31:15 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:31:15 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:32:36 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:32:36 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:32:48 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:32:48 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:33:07 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 0:33:10 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:33:10 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 0:35:55 - ERROR - Cannot update review | Error: Review not found
+9.8.2024, 0:35:55 - ERROR - Cannot update review | Error: Review not found
+9.8.2024, 0:37:00 - ERROR - Cannot update review | Error: Review not found
+9.8.2024, 0:37:00 - ERROR - Cannot update review | Error: Review not found
+9.8.2024, 0:37:51 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 1:11:57 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 1:11:57 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 1:12:12 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 1:12:12 - ERROR - Cannot add review | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 1:24:18 - ERROR - Cannot log in | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 1:24:18 - ERROR - Cannot login | TypeError: Cannot read properties of null (reading '_id')
+9.8.2024, 1:29:44 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 1:29:44 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 1:31:01 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 1:31:01 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 1:37:35 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 1:37:35 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 3:03:55 - INFO - Server listening on port http://127.0.0.1:3030/
+9.8.2024, 3:29:37 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 3:29:37 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
+9.8.2024, 3:59:14 - INFO - Server listening on port http://127.0.0.1:3030/

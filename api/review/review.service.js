@@ -86,17 +86,41 @@ async function add(review) {
         const reviewToAdd = {
             txt: review.txt,
             toyId: ObjectId.createFromHexString(review.toyId),
-            userId: ObjectId.createFromHexString(review.userId)
+            userId: ObjectId.createFromHexString(review.userId),
         }
         const collection = await dbService.getCollection('review')
-        await collection.insertOne(reviewToAdd)
-        return reviewToAdd
-    }
-    catch (err) {
+        const { insertedId } = await collection.insertOne(reviewToAdd)
+
+        // Fetch the user and toy related to the review
+        const userCollection = await dbService.getCollection('user')
+        const toyCollection = await dbService.getCollection('toy')
+
+        const byUser = await userCollection.findOne({ _id: reviewToAdd.userId })
+        const aboutToy = await toyCollection.findOne({ _id: reviewToAdd.toyId })
+        const addedReview = {
+            _id: insertedId,
+            txt: reviewToAdd.txt,
+            byUser: {
+                _id: byUser._id,
+                fullname: byUser.fullname,
+            },
+            aboutToy: {
+                _id: aboutToy._id,
+                name: aboutToy.name,
+            },
+            createdAt: insertedId.getTimestamp(),
+        }
+
+        return addedReview
+
+    } catch (err) {
         loggerService.error('Cannot add review', err)
         throw err
     }
 }
+
+
+
 
 async function update(reviewToUpdate) {
     try {
@@ -104,14 +128,36 @@ async function update(reviewToUpdate) {
         const reviewId = reviewToUpdate._id
         delete reviewToUpdate._id
         await collection.updateOne({ _id: ObjectId.createFromHexString(reviewId.toString()) }, { $set: { ...reviewToUpdate } })
-        reviewToUpdate._id = reviewId
-        return reviewToUpdate
+
+        // Fetch the user and toy related to the review
+        const userCollection = await dbService.getCollection('user')
+        const toyCollection = await dbService.getCollection('toy')
+
+        const byUser = await userCollection.findOne({ _id: ObjectId.createFromHexString(reviewToUpdate.userId.toString()) }, { projection: { fullname: 1 } })
+        const aboutToy = await toyCollection.findOne({ _id: ObjectId.createFromHexString(reviewToUpdate.toyId.toString()) }, { projection: { name: 1 } })
+
+        const updatedReview = {
+            _id: ObjectId.createFromHexString(reviewId.toString()),
+            txt: reviewToUpdate.txt,
+            byUser: {
+                _id: byUser._id,
+                fullname: byUser.fullname,
+            },
+            aboutToy: {
+                _id: aboutToy._id,
+                name: aboutToy.name,
+            },
+            createdAt: ObjectId.createFromHexString(reviewId.toString()).getTimestamp(),
+        }
+
+        return updatedReview
 
     } catch (err) {
         loggerService.error('Cannot update review', err)
         throw err
     }
 }
+
 
 function _buildCriteria(filterBy) {
     const criteria = {}
