@@ -31,8 +31,10 @@ export function setupSocketAPI(http) {
             //gIo.to(socket.myTopic).emit('chat-add-msg', msg)
         })
 
-        
-
+        socket.on('user-typing', async (user) => {
+            loggerService.info(user.fullname + ' is typing...')
+            socket.broadcast.emit('user-typing', user)
+        })
         socket.on('user-watch', userId => {
             loggerService.info(`user-watch from socket [id: ${socket.id}], on user ${userId}`)
             socket.join('watching:' + userId)

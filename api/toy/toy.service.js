@@ -3,7 +3,7 @@ import { dbService } from "../../services/db.service.js"
 import { loggerService } from "../../services/logger.service.js"
 import { userService } from "../user/user.service.js"
 
-export const toyService = { query, getById, remove, add, update }
+export const toyService = { query, getById, remove, add, update, addMsg }
 
 
 async function query(filterBy = {}) {
@@ -90,6 +90,25 @@ async function update(toyToUpdate) {
 
     } catch (err) {
         loggerService.error('Cannot update toy', err)
+        throw err
+    }
+}
+// {
+//     "toy": "66bc7699e3d48304d4f2896e",
+//     "msg": "hello"
+// }
+
+async function addMsg(msg) {
+    try {
+        const { toyId } = msg
+        console.log(msg)
+        const collection = await dbService.getCollection('toy')
+        const foundToy = await collection.findOne({ _id: ObjectId.createFromHexString(toyId) })
+        foundToy.msgs.push(msg)
+        await collection.updateOne({ _id: ObjectId.createFromHexString(toyId.toString()) }, { $set: { ...foundToy } })
+    }
+    catch (err) {
+        loggerService.error('Cannot add message', err)
         throw err
     }
 }

@@ -68,3 +68,15 @@ export async function removeToy(req, res) {
     }
 
 }
+
+export async function addToyMsg(req, res) {
+    try {
+        const { ...msg } = req.body
+        await toyService.addMsg(msg)
+        res.send('Message has been added successfully')
+    }
+    catch (err) {
+        loggerService.error('Cannot add message', err)
+        res.status(400).send('Cannot add message')
+    }
+}
