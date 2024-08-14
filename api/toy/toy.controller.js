@@ -66,7 +66,6 @@ export async function removeToy(req, res) {
         loggerService.error('Cannot remove toy', err)
         res.status(400).send('Cannot remove toy')
     }
-
 }
 
 export async function addToyMsg(req, res) {

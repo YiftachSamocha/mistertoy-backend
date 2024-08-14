@@ -47,7 +47,13 @@ export function setupSocketAPI(http) {
             loggerService.info(`Removing socket.userId for socket [id: ${socket.id}]`)
             delete socket.userId
         })
-
+        socket.on('admin-msgs', async data => {
+            const { msg, admin } = data
+            loggerService.info(msg)
+            const foundUser = await _getUserSocket(admin._id)
+            foundUser.broadcast.emit('admin-msgs', msg)
+        })
+        
     })
 }
 
@@ -102,6 +108,7 @@ async function _getAllSockets() {
     const sockets = await gIo.fetchSockets()
     return sockets
 }
+
 
 async function _printSockets() {
     const sockets = await _getAllSockets()
