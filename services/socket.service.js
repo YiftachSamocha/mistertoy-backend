@@ -53,7 +53,17 @@ export function setupSocketAPI(http) {
             const foundUser = await _getUserSocket(admin._id)
             foundUser.broadcast.emit('admin-msgs', msg)
         })
-        
+
+        socket.on('remove-toy', msg => {
+            loggerService.info(msg)
+            gIo.emit('remove-toy', msg)
+        })
+
+        socket.on('save-toy', msg => {
+            loggerService.info(msg)
+            gIo.emit('save-toy', msg)
+        })
+
     })
 }
 
