@@ -321,3 +321,324 @@
 9.8.2024, 3:29:37 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
 9.8.2024, 3:29:37 - ERROR - Cannot remove review | BSONError: hex string must be 24 characters
 9.8.2024, 3:59:14 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 12:01:20 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 12:04:32 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 12:19:04 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 14:08:00 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 14:08:06 - INFO - New connected socket [id: FZUdWLMGZYrcmqu7AAAC]
+14.8.2024, 14:08:06 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: FZUdWLMGZYrcmqu7AAAC]
+14.8.2024, 14:08:15 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:08:27 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:08:31 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:08:36 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:08:55 - INFO - New connected socket [id: kobIQF1VZxv5xnkNAAAE]
+14.8.2024, 14:09:25 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:09:26 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:09:41 - INFO - New chat msg from socket [id: kobIQF1VZxv5xnkNAAAE], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:10:15 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28977 [id: FZUdWLMGZYrcmqu7AAAC]
+14.8.2024, 14:10:17 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28962 [id: FZUdWLMGZYrcmqu7AAAC]
+14.8.2024, 14:10:18 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28977 [id: FZUdWLMGZYrcmqu7AAAC]
+14.8.2024, 14:10:20 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28964 [id: FZUdWLMGZYrcmqu7AAAC]
+14.8.2024, 14:11:05 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:11:07 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:11:11 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:11:17 - INFO - New chat msg from socket [id: kobIQF1VZxv5xnkNAAAE], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:11:20 - INFO - New chat msg from socket [id: kobIQF1VZxv5xnkNAAAE], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:11:48 - INFO - New chat msg from socket [id: FZUdWLMGZYrcmqu7AAAC], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:12:11 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:12:35 - INFO - New connected socket [id: rYFF6Tc8fg3c64AvAAAG]
+14.8.2024, 14:12:38 - INFO - New chat msg from socket [id: rYFF6Tc8fg3c64AvAAAG], emitting to topic undefined
+14.8.2024, 14:12:41 - INFO - New chat msg from socket [id: rYFF6Tc8fg3c64AvAAAG], emitting to topic undefined
+14.8.2024, 14:12:46 - INFO - New chat msg from socket [id: rYFF6Tc8fg3c64AvAAAG], emitting to topic undefined
+14.8.2024, 14:12:57 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:12:59 - INFO - New connected socket [id: RiE2C3O45G6DqCBtAAAI]
+14.8.2024, 14:12:59 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: RiE2C3O45G6DqCBtAAAI]
+14.8.2024, 14:13:04 - INFO - New chat msg from socket [id: RiE2C3O45G6DqCBtAAAI], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:13:09 - INFO - New chat msg from socket [id: RiE2C3O45G6DqCBtAAAI], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:13:16 - INFO - New chat msg from socket [id: kobIQF1VZxv5xnkNAAAE], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:13:21 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:13:22 - INFO - New connected socket [id: FeD75QcCw3K3E9ElAAAK]
+14.8.2024, 14:13:22 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: FeD75QcCw3K3E9ElAAAK]
+14.8.2024, 14:13:26 - INFO - New chat msg from socket [id: FeD75QcCw3K3E9ElAAAK], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:13:34 - INFO - New chat msg from socket [id: RiE2C3O45G6DqCBtAAAI], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:15:31 - INFO - New chat msg from socket [id: RiE2C3O45G6DqCBtAAAI], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:16:14 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:17:04 - INFO - New connected socket [id: Lnmq0h1Z473oQxcmAAAM]
+14.8.2024, 14:17:26 - INFO - New chat msg from socket [id: Lnmq0h1Z473oQxcmAAAM], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:17:49 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:18:03 - INFO - New connected socket [id: P1mNEPv3IIrDvQQKAAAO]
+14.8.2024, 14:18:11 - INFO - New chat msg from socket [id: P1mNEPv3IIrDvQQKAAAO], emitting to topic undefined
+14.8.2024, 14:18:15 - INFO - New chat msg from socket [id: P1mNEPv3IIrDvQQKAAAO], emitting to topic undefined
+14.8.2024, 14:18:18 - INFO - New chat msg from socket [id: P1mNEPv3IIrDvQQKAAAO], emitting to topic undefined
+14.8.2024, 14:18:25 - INFO - New chat msg from socket [id: FeD75QcCw3K3E9ElAAAK], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:18:32 - INFO - New chat msg from socket [id: P1mNEPv3IIrDvQQKAAAO], emitting to topic undefined
+14.8.2024, 14:18:43 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:18:45 - INFO - New connected socket [id: hVLloj3MqGQ6WA8dAAAQ]
+14.8.2024, 14:18:45 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: hVLloj3MqGQ6WA8dAAAQ]
+14.8.2024, 14:18:51 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:18:51 - INFO - New connected socket [id: h4CNF7buXih4yJKmAAAS]
+14.8.2024, 14:18:52 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: h4CNF7buXih4yJKmAAAS]
+14.8.2024, 14:18:54 - INFO - New chat msg from socket [id: hVLloj3MqGQ6WA8dAAAQ], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:18:58 - INFO - New chat msg from socket [id: h4CNF7buXih4yJKmAAAS], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:19:37 - INFO - New chat msg from socket [id: hVLloj3MqGQ6WA8dAAAQ], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:19:44 - INFO - New chat msg from socket [id: h4CNF7buXih4yJKmAAAS], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:19:52 - INFO - New chat msg from socket [id: hVLloj3MqGQ6WA8dAAAQ], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:19:54 - INFO - New chat msg from socket [id: hVLloj3MqGQ6WA8dAAAQ], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:19:58 - INFO - New chat msg from socket [id: hVLloj3MqGQ6WA8dAAAQ], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:22:51 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:22:53 - INFO - New connected socket [id: oWXpb-TGkpMPB8p9AAAU]
+14.8.2024, 14:22:53 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: oWXpb-TGkpMPB8p9AAAU]
+14.8.2024, 14:22:53 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:22:54 - INFO - New connected socket [id: vsV0LWQ4rgg22yLFAAAW]
+14.8.2024, 14:22:54 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: vsV0LWQ4rgg22yLFAAAW]
+14.8.2024, 14:22:59 - INFO - New chat msg from socket [id: oWXpb-TGkpMPB8p9AAAU], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:23:02 - INFO - New chat msg from socket [id: oWXpb-TGkpMPB8p9AAAU], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:23:08 - INFO - New chat msg from socket [id: oWXpb-TGkpMPB8p9AAAU], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:23:13 - INFO - New chat msg from socket [id: vsV0LWQ4rgg22yLFAAAW], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:24:43 - INFO - New chat msg from socket [id: oWXpb-TGkpMPB8p9AAAU], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:24:46 - INFO - New chat msg from socket [id: oWXpb-TGkpMPB8p9AAAU], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:24:52 - INFO - New chat msg from socket [id: vsV0LWQ4rgg22yLFAAAW], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:24:58 - INFO - New chat msg from socket [id: vsV0LWQ4rgg22yLFAAAW], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:27:54 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:27:55 - INFO - New connected socket [id: DinGJM8srJMMnGyMAAAY]
+14.8.2024, 14:27:55 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: DinGJM8srJMMnGyMAAAY]
+14.8.2024, 14:27:56 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:27:58 - INFO - New connected socket [id: 0UXwj2qYheQvA23WAAAa]
+14.8.2024, 14:27:58 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: 0UXwj2qYheQvA23WAAAa]
+14.8.2024, 14:28:01 - INFO - New chat msg from socket [id: 0UXwj2qYheQvA23WAAAa], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:28:05 - INFO - New chat msg from socket [id: 0UXwj2qYheQvA23WAAAa], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:28:10 - INFO - New chat msg from socket [id: DinGJM8srJMMnGyMAAAY], emitting to topic 66bc7699e3d48304d4f28977
+14.8.2024, 14:28:15 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28977 [id: 0UXwj2qYheQvA23WAAAa]
+14.8.2024, 14:29:25 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28962 [id: 0UXwj2qYheQvA23WAAAa]
+14.8.2024, 14:30:43 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:32:44 - INFO - New connected socket [id: 7DuDxDlZC0ZZXpfbAAAc]
+14.8.2024, 14:34:35 - INFO - New chat msg from socket [id: 7DuDxDlZC0ZZXpfbAAAc], emitting to topic 66bc7699e3d48304d4f28972
+14.8.2024, 14:34:39 - INFO - New chat msg from socket [id: 7DuDxDlZC0ZZXpfbAAAc], emitting to topic 66bc7699e3d48304d4f28972
+14.8.2024, 14:34:41 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28972 [id: 7DuDxDlZC0ZZXpfbAAAc]
+14.8.2024, 14:38:39 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:38:41 - INFO - New connected socket [id: bI32RVB4ZaFQneaHAAAe]
+14.8.2024, 14:38:41 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: bI32RVB4ZaFQneaHAAAe]
+14.8.2024, 14:38:57 - INFO - New chat msg from socket [id: bI32RVB4ZaFQneaHAAAe], emitting to topic 66bc7699e3d48304d4f2897b
+14.8.2024, 14:39:04 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28977 [id: DinGJM8srJMMnGyMAAAY]
+14.8.2024, 14:39:06 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:39:07 - INFO - New connected socket [id: kCrsm2dVAXrZs_PNAAAg]
+14.8.2024, 14:39:07 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: kCrsm2dVAXrZs_PNAAAg]
+14.8.2024, 14:39:10 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:39:11 - INFO - New connected socket [id: l-fTTpp1aXhAFOrPAAAi]
+14.8.2024, 14:39:11 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: l-fTTpp1aXhAFOrPAAAi]
+14.8.2024, 14:39:18 - INFO - New chat msg from socket [id: kCrsm2dVAXrZs_PNAAAg], emitting to topic 66bc7699e3d48304d4f2897b
+14.8.2024, 14:39:31 - INFO - New chat msg from socket [id: l-fTTpp1aXhAFOrPAAAi], emitting to topic 66bc7699e3d48304d4f2897b
+14.8.2024, 14:39:52 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897b [id: l-fTTpp1aXhAFOrPAAAi]
+14.8.2024, 14:39:59 - INFO - New chat msg from socket [id: l-fTTpp1aXhAFOrPAAAi], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:40:13 - INFO - New chat msg from socket [id: l-fTTpp1aXhAFOrPAAAi], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:40:17 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897b [id: kCrsm2dVAXrZs_PNAAAg]
+14.8.2024, 14:45:20 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:45:21 - INFO - New connected socket [id: 9CZTv--2t11lPwa_AAAk]
+14.8.2024, 14:45:21 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: 9CZTv--2t11lPwa_AAAk]
+14.8.2024, 14:45:24 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:45:26 - INFO - New connected socket [id: S_x3F_Pc5bXkb9AdAAAm]
+14.8.2024, 14:45:26 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: S_x3F_Pc5bXkb9AdAAAm]
+14.8.2024, 14:45:34 - INFO - New chat msg from socket [id: 9CZTv--2t11lPwa_AAAk], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:45:40 - INFO - New chat msg from socket [id: S_x3F_Pc5bXkb9AdAAAm], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:45:44 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897d [id: S_x3F_Pc5bXkb9AdAAAm]
+14.8.2024, 14:45:50 - INFO - New chat msg from socket [id: S_x3F_Pc5bXkb9AdAAAm], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 14:46:02 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897d [id: 9CZTv--2t11lPwa_AAAk]
+14.8.2024, 14:46:11 - INFO - New chat msg from socket [id: 9CZTv--2t11lPwa_AAAk], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 14:46:20 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: S_x3F_Pc5bXkb9AdAAAm]
+14.8.2024, 14:47:39 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:47:40 - INFO - New connected socket [id: UiuomCDtuzK1C8OUAAAo]
+14.8.2024, 14:47:41 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: UiuomCDtuzK1C8OUAAAo]
+14.8.2024, 14:47:41 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:47:42 - INFO - New connected socket [id: QBl7PLx_eM0Jb477AAAq]
+14.8.2024, 14:47:42 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: QBl7PLx_eM0Jb477AAAq]
+14.8.2024, 14:47:56 - INFO - New chat msg from socket [id: UiuomCDtuzK1C8OUAAAo], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:48:01 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: QBl7PLx_eM0Jb477AAAq]
+14.8.2024, 14:48:06 - INFO - New chat msg from socket [id: QBl7PLx_eM0Jb477AAAq], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:48:12 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897d [id: UiuomCDtuzK1C8OUAAAo]
+14.8.2024, 14:48:15 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: UiuomCDtuzK1C8OUAAAo]
+14.8.2024, 14:56:42 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:56:43 - INFO - New connected socket [id: vp_QptmP15HPKED1AAAs]
+14.8.2024, 14:56:43 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: vp_QptmP15HPKED1AAAs]
+14.8.2024, 14:56:44 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:56:45 - INFO - New connected socket [id: ftPyRhyQJsoEnU3aAAAu]
+14.8.2024, 14:56:45 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: ftPyRhyQJsoEnU3aAAAu]
+14.8.2024, 14:56:53 - INFO - New chat msg from socket [id: ftPyRhyQJsoEnU3aAAAu], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:56:59 - INFO - New chat msg from socket [id: vp_QptmP15HPKED1AAAs], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:57:16 - INFO - New chat msg from socket [id: vp_QptmP15HPKED1AAAs], emitting to topic 66bc7699e3d48304d4f2897d
+14.8.2024, 14:57:20 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897d [id: ftPyRhyQJsoEnU3aAAAu]
+14.8.2024, 14:57:54 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: ftPyRhyQJsoEnU3aAAAu]
+14.8.2024, 14:57:54 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897d [id: vp_QptmP15HPKED1AAAs]
+14.8.2024, 14:57:56 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:57:57 - INFO - New connected socket [id: dyedw47Et0La9lMyAAAw]
+14.8.2024, 14:57:57 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: dyedw47Et0La9lMyAAAw]
+14.8.2024, 14:57:58 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 14:58:00 - INFO - New connected socket [id: cEdb-sKc4E-f0-1fAAAy]
+14.8.2024, 14:58:00 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: cEdb-sKc4E-f0-1fAAAy]
+14.8.2024, 14:58:10 - INFO - New chat msg from socket [id: cEdb-sKc4E-f0-1fAAAy], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 14:58:48 - INFO - New chat msg from socket [id: cEdb-sKc4E-f0-1fAAAy], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 14:58:50 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: cEdb-sKc4E-f0-1fAAAy]
+14.8.2024, 15:02:26 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897d [id: cEdb-sKc4E-f0-1fAAAy]
+14.8.2024, 15:03:15 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:03:17 - INFO - New connected socket [id: pqgVP1g4WXPn6D-7AAA0]
+14.8.2024, 15:03:17 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: pqgVP1g4WXPn6D-7AAA0]
+14.8.2024, 15:03:17 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:03:18 - INFO - New connected socket [id: EJL8EYzaFqwhutF-AAA2]
+14.8.2024, 15:03:18 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: EJL8EYzaFqwhutF-AAA2]
+14.8.2024, 15:03:22 - INFO - New chat msg from socket [id: pqgVP1g4WXPn6D-7AAA0], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 15:03:28 - INFO - New chat msg from socket [id: EJL8EYzaFqwhutF-AAA2], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 15:03:33 - INFO - New chat msg from socket [id: pqgVP1g4WXPn6D-7AAA0], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 15:03:35 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: pqgVP1g4WXPn6D-7AAA0]
+14.8.2024, 15:03:39 - INFO - New chat msg from socket [id: pqgVP1g4WXPn6D-7AAA0], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:03:43 - INFO - New chat msg from socket [id: pqgVP1g4WXPn6D-7AAA0], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:03:45 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28970 [id: pqgVP1g4WXPn6D-7AAA0]
+14.8.2024, 15:08:52 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:08:54 - INFO - New connected socket [id: 0dyRZCWtiNzT5UWNAAA4]
+14.8.2024, 15:08:54 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: 0dyRZCWtiNzT5UWNAAA4]
+14.8.2024, 15:08:55 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:08:56 - INFO - New connected socket [id: iLRZyWyLBMNqbF8FAAA6]
+14.8.2024, 15:08:57 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: iLRZyWyLBMNqbF8FAAA6]
+14.8.2024, 15:09:02 - INFO - New chat msg from socket [id: iLRZyWyLBMNqbF8FAAA6], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 15:16:26 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:16:28 - INFO - New connected socket [id: qALWZ_4qetf50JhmAAA8]
+14.8.2024, 15:16:28 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: qALWZ_4qetf50JhmAAA8]
+14.8.2024, 15:16:29 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:16:30 - INFO - New connected socket [id: MkTN5gzGthVfLQMwAAA-]
+14.8.2024, 15:16:30 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: MkTN5gzGthVfLQMwAAA-]
+14.8.2024, 15:16:38 - INFO - New chat msg from socket [id: MkTN5gzGthVfLQMwAAA-], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 15:16:42 - INFO - New chat msg from socket [id: qALWZ_4qetf50JhmAAA8], emitting to topic 66bc7699e3d48304d4f28966
+14.8.2024, 15:16:45 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: MkTN5gzGthVfLQMwAAA-]
+14.8.2024, 15:16:49 - INFO - New chat msg from socket [id: MkTN5gzGthVfLQMwAAA-], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:16:51 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: qALWZ_4qetf50JhmAAA8]
+14.8.2024, 15:16:56 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28970 [id: qALWZ_4qetf50JhmAAA8]
+14.8.2024, 15:16:57 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: qALWZ_4qetf50JhmAAA8]
+14.8.2024, 15:17:04 - INFO - New chat msg from socket [id: MkTN5gzGthVfLQMwAAA-], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:17:15 - INFO - New chat msg from socket [id: qALWZ_4qetf50JhmAAA8], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:17:18 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28970 [id: MkTN5gzGthVfLQMwAAA-]
+14.8.2024, 15:17:23 - INFO - New chat msg from socket [id: qALWZ_4qetf50JhmAAA8], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:17:27 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28966 [id: MkTN5gzGthVfLQMwAAA-]
+14.8.2024, 15:21:12 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:21:13 - INFO - New connected socket [id: rSTschO9hrWpwGmUAABA]
+14.8.2024, 15:21:13 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: rSTschO9hrWpwGmUAABA]
+14.8.2024, 15:21:14 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:21:16 - INFO - New connected socket [id: p1C3J5kBh-95aTYAAABC]
+14.8.2024, 15:21:16 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: p1C3J5kBh-95aTYAAABC]
+14.8.2024, 15:21:22 - INFO - New chat msg from socket [id: rSTschO9hrWpwGmUAABA], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:21:24 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:21:25 - INFO - New connected socket [id: CZZAQvJhpdI-AC_oAABE]
+14.8.2024, 15:21:25 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: CZZAQvJhpdI-AC_oAABE]
+14.8.2024, 15:21:30 - INFO - New chat msg from socket [id: CZZAQvJhpdI-AC_oAABE], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:22:32 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:22:33 - INFO - New connected socket [id: izlEoUrjaVDLd3tMAABG]
+14.8.2024, 15:22:33 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: izlEoUrjaVDLd3tMAABG]
+14.8.2024, 15:22:44 - INFO - New chat msg from socket [id: izlEoUrjaVDLd3tMAABG], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:22:49 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:22:50 - INFO - New connected socket [id: RhrUud-eGeRu71chAABI]
+14.8.2024, 15:22:50 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: RhrUud-eGeRu71chAABI]
+14.8.2024, 15:22:51 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:22:51 - INFO - New connected socket [id: HHekoLzqxLWNpDTjAABK]
+14.8.2024, 15:22:51 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: HHekoLzqxLWNpDTjAABK]
+14.8.2024, 15:22:58 - INFO - New chat msg from socket [id: RhrUud-eGeRu71chAABI], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:23:04 - INFO - New chat msg from socket [id: HHekoLzqxLWNpDTjAABK], emitting to topic 66bc7699e3d48304d4f28970
+14.8.2024, 15:23:06 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28970 [id: RhrUud-eGeRu71chAABI]
+14.8.2024, 15:23:10 - INFO - New chat msg from socket [id: RhrUud-eGeRu71chAABI], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:23:13 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: RhrUud-eGeRu71chAABI]
+14.8.2024, 15:23:15 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28970 [id: RhrUud-eGeRu71chAABI]
+14.8.2024, 15:23:17 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28970 [id: HHekoLzqxLWNpDTjAABK]
+14.8.2024, 15:23:39 - INFO - New chat msg from socket [id: HHekoLzqxLWNpDTjAABK], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:23:46 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: RhrUud-eGeRu71chAABI]
+14.8.2024, 15:23:53 - INFO - New chat msg from socket [id: HHekoLzqxLWNpDTjAABK], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:23:56 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28970 [id: RhrUud-eGeRu71chAABI]
+14.8.2024, 15:34:37 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 15:34:41 - INFO - New connected socket [id: NrZwtWv_MEMYna0CAAAB]
+14.8.2024, 15:34:42 - INFO - New connected socket [id: Uz9SV83DL00-u7qMAAAD]
+14.8.2024, 15:34:42 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: Uz9SV83DL00-u7qMAAAD]
+14.8.2024, 15:34:42 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:34:43 - INFO - New connected socket [id: 1iY3GClxrDLKHEG5AAAF]
+14.8.2024, 15:34:43 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: 1iY3GClxrDLKHEG5AAAF]
+14.8.2024, 15:35:25 - INFO - New chat msg from socket [id: NrZwtWv_MEMYna0CAAAB], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:35:59 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:36:00 - INFO - New connected socket [id: pC59si_qMyMDmOvHAAAH]
+14.8.2024, 15:36:00 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: pC59si_qMyMDmOvHAAAH]
+14.8.2024, 15:36:06 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:36:07 - INFO - New connected socket [id: 95g8YS88XUdxrxchAAAJ]
+14.8.2024, 15:36:07 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: 95g8YS88XUdxrxchAAAJ]
+14.8.2024, 15:36:11 - INFO - New chat msg from socket [id: 95g8YS88XUdxrxchAAAJ], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:36:17 - INFO - New chat msg from socket [id: pC59si_qMyMDmOvHAAAH], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:36:39 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: 95g8YS88XUdxrxchAAAJ]
+14.8.2024, 15:36:43 - INFO - New chat msg from socket [id: 95g8YS88XUdxrxchAAAJ], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 15:36:44 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: 95g8YS88XUdxrxchAAAJ]
+14.8.2024, 15:36:46 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: 95g8YS88XUdxrxchAAAJ]
+14.8.2024, 15:36:46 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: 95g8YS88XUdxrxchAAAJ]
+14.8.2024, 15:36:48 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2896e [id: 95g8YS88XUdxrxchAAAJ]
+14.8.2024, 15:36:49 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: pC59si_qMyMDmOvHAAAH]
+14.8.2024, 15:43:44 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:43:45 - INFO - New connected socket [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:43:45 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:43:46 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 15:43:47 - INFO - New connected socket [id: DB4P4RcJ4cJmaompAAAN]
+14.8.2024, 15:43:47 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: DB4P4RcJ4cJmaompAAAN]
+14.8.2024, 15:44:08 - INFO - New chat msg from socket [id: DB4P4RcJ4cJmaompAAAN], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 15:44:12 - INFO - New chat msg from socket [id: ud96iQVJ6uTBkgwgAAAL], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 15:44:14 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:17 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2896e [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:18 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897e [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:19 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2896e [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:20 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:24 - INFO - New chat msg from socket [id: ud96iQVJ6uTBkgwgAAAL], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:44:28 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:29 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:32 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: DB4P4RcJ4cJmaompAAAN]
+14.8.2024, 15:44:49 - INFO - New chat msg from socket [id: ud96iQVJ6uTBkgwgAAAL], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 15:44:53 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: ud96iQVJ6uTBkgwgAAAL]
+14.8.2024, 15:44:56 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: DB4P4RcJ4cJmaompAAAN]
+14.8.2024, 15:44:58 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: DB4P4RcJ4cJmaompAAAN]
+14.8.2024, 16:27:10 - INFO - New chat msg from socket [id: ud96iQVJ6uTBkgwgAAAL], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 16:27:13 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: DB4P4RcJ4cJmaompAAAN]
+14.8.2024, 16:27:46 - INFO - New chat msg from socket [id: ud96iQVJ6uTBkgwgAAAL], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 16:28:13 - INFO - New chat msg from socket [id: ud96iQVJ6uTBkgwgAAAL], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 16:28:33 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 16:28:34 - INFO - New connected socket [id: EYBvLABNfYIpEe6RAAAP]
+14.8.2024, 16:28:34 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 16:28:35 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: EYBvLABNfYIpEe6RAAAP]
+14.8.2024, 16:28:36 - INFO - New connected socket [id: RK_PxyWRcKJlcmxPAAAR]
+14.8.2024, 16:28:36 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: RK_PxyWRcKJlcmxPAAAR]
+14.8.2024, 16:28:54 - INFO - New chat msg from socket [id: RK_PxyWRcKJlcmxPAAAR], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 16:28:58 - INFO - New chat msg from socket [id: EYBvLABNfYIpEe6RAAAP], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 16:29:02 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: EYBvLABNfYIpEe6RAAAP]
+14.8.2024, 16:29:05 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2896e [id: EYBvLABNfYIpEe6RAAAP]
+14.8.2024, 16:29:05 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: EYBvLABNfYIpEe6RAAAP]
+14.8.2024, 16:29:16 - INFO - New chat msg from socket [id: EYBvLABNfYIpEe6RAAAP], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 16:29:22 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: RK_PxyWRcKJlcmxPAAAR]
+14.8.2024, 16:36:04 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 16:36:04 - INFO - New connected socket [id: oQHlny-7ozOIAS6tAAAC]
+14.8.2024, 16:36:04 - INFO - New connected socket [id: hGVeUm92xLIYLs3xAAAD]
+14.8.2024, 16:36:26 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 16:36:27 - INFO - New connected socket [id: bOCmKWN5qebzOCEkAAAF]
+14.8.2024, 16:36:27 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: bOCmKWN5qebzOCEkAAAF]
+14.8.2024, 16:36:28 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 16:36:29 - INFO - New connected socket [id: 3sAIQ0cOghazoNr3AAAH]
+14.8.2024, 16:36:29 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: 3sAIQ0cOghazoNr3AAAH]
+14.8.2024, 16:36:36 - INFO - New chat msg from socket [id: 3sAIQ0cOghazoNr3AAAH], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 16:36:38 - INFO - New chat msg from socket [id: 3sAIQ0cOghazoNr3AAAH], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 16:36:41 - INFO - New chat msg from socket [id: 3sAIQ0cOghazoNr3AAAH], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 16:37:03 - INFO - Server listening on port http://127.0.0.1:3030/
+14.8.2024, 16:37:03 - INFO - New connected socket [id: i5PmwRW0S3S0q3CgAAAC]
+14.8.2024, 16:37:03 - INFO - New connected socket [id: Y0_pZOfKSiULyHEnAAAD]
+14.8.2024, 16:37:08 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 16:37:09 - INFO - New connected socket [id: 4X6ZubKaLhZ2pRJCAAAF]
+14.8.2024, 16:37:09 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28963 for socket [id: 4X6ZubKaLhZ2pRJCAAAF]
+14.8.2024, 16:37:10 - INFO - Socket disconnected [id: undefined]
+14.8.2024, 16:37:10 - INFO - New connected socket [id: uGECOC1OFqIgOby6AAAH]
+14.8.2024, 16:37:10 - INFO - Setting socket.userId = 66bc7699e3d48304d4f28961 for socket [id: uGECOC1OFqIgOby6AAAH]
+14.8.2024, 16:37:16 - INFO - New chat msg from socket [id: 4X6ZubKaLhZ2pRJCAAAF], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 16:37:20 - INFO - New chat msg from socket [id: uGECOC1OFqIgOby6AAAH], emitting to topic 66bc7699e3d48304d4f28975
+14.8.2024, 16:37:22 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: 4X6ZubKaLhZ2pRJCAAAF]
+14.8.2024, 16:37:26 - INFO - New chat msg from socket [id: 4X6ZubKaLhZ2pRJCAAAF], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 16:37:28 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: 4X6ZubKaLhZ2pRJCAAAF]
+14.8.2024, 16:37:29 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: 4X6ZubKaLhZ2pRJCAAAF]
+14.8.2024, 16:37:31 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: uGECOC1OFqIgOby6AAAH]
+14.8.2024, 16:37:32 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: uGECOC1OFqIgOby6AAAH]
+14.8.2024, 16:37:33 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2896e [id: uGECOC1OFqIgOby6AAAH]
+14.8.2024, 16:37:38 - INFO - Socket is leaving topic 66bc7699e3d48304d4f2897a [id: 4X6ZubKaLhZ2pRJCAAAF]
+14.8.2024, 16:37:40 - INFO - New chat msg from socket [id: uGECOC1OFqIgOby6AAAH], emitting to topic 66bc7699e3d48304d4f2897a
+14.8.2024, 16:37:43 - INFO - Socket is leaving topic 66bc7699e3d48304d4f28975 [id: 4X6ZubKaLhZ2pRJCAAAF]

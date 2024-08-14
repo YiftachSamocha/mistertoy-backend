@@ -1,4 +1,5 @@
 import path from 'path';
+import http from 'http'
 import express from 'express'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
@@ -7,8 +8,10 @@ import { toyRoutes } from './api/toy/toy.routes.js';
 import { authRoutes } from './api/auth/auth.routes.js';
 import { reviewRoutes } from './api/review/review.routes.js';
 import { userRoutes } from './api/user/user.routes.js';
+import { setupSocketAPI } from './services/socket.service.js';
 
 const app = express()
+const server= http.createServer(app)
 
 // Express Config:
 app.use(cookieParser())
@@ -34,12 +37,14 @@ app.use('/api/auth', authRoutes)
 app.use('/api/review', reviewRoutes)
 app.use('/api/user', userRoutes)
 
+setupSocketAPI(server)
+
 app.get('/**', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))
 })
 
 const PORT = process.env.PORT || 3030
-app.listen(PORT, () =>
+server.listen(PORT, () =>
     loggerService.info(`Server listening on port http://127.0.0.1:${PORT}/`)
 )
 
